@@ -1,0 +1,479 @@
+		p{
+			    margin-top: -92%;
+			        color: #eee;
+		}
+		.mybotm{
+			margin-top: 233px;
+		}
+		@media screen and (max-width:1069px) {
+
+			.video_return{
+				 width: 20%;
+			    position: absolute;
+			    top: 50%;
+			    left: 50%;
+			    transform: translate(-50%,-50%);
+						}
+			.long_scoll_xgqy{ /* 针对古建风情*/
+				height: 10800px !important;
+			}
+			.long_scoll_gjfc{ /* 针对古建风情*/
+				height: 50900px !important;
+			}
+			.long_scoll_zlcg{ /* 针对古建风情*/
+				height: 10900px !important;
+			}
+			.long_scoll_lysd{ /* 针对古建风情*/
+				height: 34800px !important;
+			}
+			.long_scoll_fszw{ /* 针对古建风情*/
+				height: 20900px !important;
+			}
+		}
+		/*大屏幕现场*/
+		@media screen and (min-width:1070px) {
+			.nav_main_div{width: 100%;height:1800px;background-color: black;}
+			.video_return{
+				 width: 20%;
+			    position: absolute;
+			    top: 50%;
+			    left: 42%;
+			    transform: translate(-50%,-50%);
+						}
+			.long_scoll_xgqy{ /* 针对古建风情*/
+							height: 5800px
+						}
+			.long_scoll_gjfc{ /* 针对古建风情*/
+							height: 30900px
+						}
+			.long_scoll_zlcg{ /* 针对古建风情*/
+							height: 6900px
+						}
+			.long_scoll_lysd{ /* 针对古建风情*/
+							height: 14800px
+						}
+			.long_scoll_fszw{ /* 针对古建风情*/
+							height: 10900px
+						}
+		}
+		/*ipad pro*/
+		@media screen and (min-width:1023px)and (max-width:1069px) {
+			.nav_main_div{width: 100%;height:1366px;background-color: black;}
+		}
+		/*ipad*/
+		@media screen and (min-width:767px)and (max-width:1022px) {
+			.nav_main_div{width: 100%;height:1024px;background-color: black;}
+		}
+		/* iphone6 plus*/
+		@media screen and (min-width:413px)and (max-width:766px) {
+			.nav_main_div{width: 100%;height:736px;background-color: black;}
+		}
+			/* iphone6*/
+		@media screen and (min-width:374px)and (max-width:412px) {
+			.nav_main_div{width: 100%;height:667px;background-color: black;}
+		}
+		/* iphone5*/
+		@media screen and (min-width:319px)and (max-width:373px) {
+			.nav_main_div{width: 100%;height:568px;background-color: black;}
+		}
+		.div_main{
+			width:100%;height:9800px; 
+			}
+		.div_left{
+			width:14%;
+			height:100%;	
+			float:left;
+		}
+		.div_right{
+			width:86%;
+			height:100%;
+		
+			float:left;
+		}
+		.mynav {
+		 width: 9%;
+   		 height: 82%;
+		 background-color: yellow;
+		  color: white;
+		  position:fixed;
+		  left:0;
+		  top:10% ;
+		  z-index:10;
+		  border-top-right-radius: 40px;
+          border-bottom-right-radius: 40px;
+		}
+		.mynav_click{
+			background-color: floralwhite;
+		}
+		.mynav p{
+			    margin: 0 auto;
+   				 font-size: 8vw;
+   				 padding-top: 600%;
+   				    color: darkgrey;
+		}
+/*		.myfont{
+			font-size: 2.5rem;
+		}*/
+		.show img.big_to_small{
+			width: 60%;}
+		.show img{
+			width: 100%;}
+		
+		
+
+.nav_top_div{width: 100%;height: 26.46%;}
+.nav_mid_div{width: 100%;height: 42.54%;}
+.nav_mid_1_div{height: 100%;width: 25%;float: left;}
+.nav_mid_2_div{height: 100%;width: 25%;float: left;}
+.nav_mid_3_div{height: 100%;width: 25%;float: left;}
+.nav_mid_4_div{height: 100%;width: 25%;float: left;}
+.nav_gujianfengcai_div{width: 100%;height: 15%;}
+.nav_bottom_div{width: 100%;height: 15%;}
+.nav_copyright_div{
+	width: 100%;height: 0.99%;
+}
+.nav_copyright_div span{
+	float: right;
+}
+ .nav_div_nei_click{
+ 	border: 2px solid white;
+ }
+.nav_div_nei{background-color: green;width: 99.5%;height: 99.8%;}
+
+.nav_top_div_nei{
+    background-color: green;
+    width: 99.5%;height:  97.8%;
+    background: url(../img/nav/top.jpg); 
+    background-size: cover;}
+
+.nav_top_div_nei img{ width: 30%;
+    margin-top: 23%;
+    margin-left: 6%;}
+.nav_mid_1_div_nei img  {
+    width: 97%;
+    margin-left: 1%;  
+    margin-top: 49%;
+}
+.nav_mid_2_div_nei img  {
+    width: 97%;
+    margin-left: 1%;  
+    margin-top: 106%;
+}
+.nav_mid_3_div_nei img  {
+    width: 97%;
+    margin-left: 1%;  
+    margin-top: 167%;
+}
+.nav_mid_4_div_nei img  {
+    width: 97%;
+    margin-left: 1%;  
+    margin-top: 13%;
+}
+.nav_gujianfengcai_div_nei img{
+        width: 54%;
+    margin-left: 45%;
+    margin-top: 2%;
+}
+.nav_bottom_div_nei img{
+        width: 54%;
+    margin-left: 45%;
+    margin-top: 2%;
+}
+.nav_mid_1_div_nei{
+    background-color: green;
+    width: 98.5%;
+    height: 99.8%;
+    background: url(../img/nav/m1.jpg);
+    background-size: cover;
+}
+.nav_mid_2_div_nei{
+    background-color: green;
+    width: 98.5%;
+    height: 99.8%;
+    background: url(../img/nav/m2.jpg);
+    background-size: cover;
+}
+.nav_mid_3_div_nei{
+    background-color: green;
+    width: 98.5%;
+    height: 99.8%;
+    background: url(../img/nav/m3.jpg);
+    background-size: cover;
+}
+.nav_mid_4_div_nei{
+    background-color: green;
+    width: 98.5%;
+    height: 99.8%;
+    background: url(../img/nav/m4.jpg);
+    background-size: cover;
+}
+.nav_gujianfengcai_div_nei{
+    background-color: green;
+    width: 99.5%;
+    height: 99.8%;
+    margin-top: 0.5%;
+    background: url(../img/nav/gjfq.png);
+    background-size: cover;
+}
+
+.nav_bottom_div_nei{
+    background-color: green;
+    width: 99.5%;
+    height: 99.8%;
+  /*  margin-top: 0.5%;*/
+    background: url(../img/nav/map.jpg);
+    /*background: url(img/load1.gif);*/
+    background-size: cover;
+}
+
+
+
+
+.video_top_div{
+	width: 100%;
+	height: 60%;
+	margin-top: 35%;
+}
+.video_bottom_div{
+	width: 100%;
+	height: 40%;
+}
+
+.dummy-text{
+	    text-align: left;
+    margin: 0 auto;
+    padding: 10px 0;
+    color: #ddd;
+    font-size: 22px;
+}
+
+
+.overlay-loader {
+	display: block;
+	margin: auto;
+	width: 319px;
+	position: relative;
+	 margin-top: -85%;
+	left: 0;
+	right: 0;
+	bottom: 0;
+/*	background: url('img/preloader.gif');*/
+background: url('img/load1.gif');
+	    height: 66px;
+	/*display: none;*/
+
+}
+.loader {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: 97px;
+	height: 97px;
+	animation-name: rotateAnim;
+		-o-animation-name: rotateAnim;
+		-ms-animation-name: rotateAnim;
+		-webkit-animation-name: rotateAnim;
+		-moz-animation-name: rotateAnim;
+	animation-duration: 0.4s;
+		-o-animation-duration: 0.4s;
+		-ms-animation-duration: 0.4s;
+		-webkit-animation-duration: 0.4s;
+		-moz-animation-duration: 0.4s;
+	animation-iteration-count: infinite;
+		-o-animation-iteration-count: infinite;
+		-ms-animation-iteration-count: infinite;
+		-webkit-animation-iteration-count: infinite;
+		-moz-animation-iteration-count: infinite;
+	animation-timing-function: linear;
+		-o-animation-timing-function: linear;
+		-ms-animation-timing-function: linear;
+		-webkit-animation-timing-function: linear;
+		-moz-animation-timing-function: linear;
+}
+.loader div {
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	border: 1px solid rgb(0,0,0);
+	position: absolute;
+	top: 2px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+.loader div:nth-child(odd) {
+	border-top: none;
+	border-left: none;
+}
+.loader div:nth-child(even) {
+	border-bottom: none;
+	border-right: none;
+}
+.loader div:nth-child(2) {
+	border-width: 2px;
+	left: 0px;
+	top: -4px;
+	width: 12px;
+	height: 12px;
+}
+.loader div:nth-child(3) {
+	border-width: 2px;
+	left: -1px;
+	top: 3px;
+	width: 18px;
+	height: 18px;
+}
+.loader div:nth-child(4) {
+	border-width: 3px;
+	left: -1px;
+	top: -4px;
+	width: 23px;
+	height: 23px;
+}
+.loader div:nth-child(5) {
+	border-width: 3px;
+	left: -1px;
+	top: 4px;
+	width: 31px;
+	height: 31px;
+}
+.loader div:nth-child(6) {
+	border-width: 4px;
+	left: 0px;
+	top: -4px;
+	width: 39px;
+	height: 39px;
+}
+.loader div:nth-child(7) {
+	border-width: 4px;
+	left: 0px;
+	top: 6px;
+	width: 49px;
+	height: 49px;
+}
+
+
+@keyframes rotateAnim {
+	from {
+		transform: rotate(360deg);
+	}
+	to {
+		transform: rotate(0deg);
+	}
+}
+
+@-o-keyframes rotateAnim {
+	from {
+		-o-transform: rotate(360deg);
+	}
+	to {
+		-o-transform: rotate(0deg);
+	}
+}
+
+@-ms-keyframes rotateAnim {
+	from {
+		-ms-transform: rotate(360deg);
+	}
+	to {
+		-ms-transform: rotate(0deg);
+	}
+}
+
+@-webkit-keyframes rotateAnim {
+	from {
+		-webkit-transform: rotate(360deg);
+	}
+	to {
+		-webkit-transform: rotate(0deg);
+	}
+}
+
+@-moz-keyframes rotateAnim {
+	from {
+		-moz-transform: rotate(360deg);
+	}
+	to {
+		-moz-transform: rotate(0deg);
+	}
+}
+
+/*load test*/
+/* 无限旋转 哔哔哔->奥特曼 */
+.spin {
+    -webkit-transform: rotate(360deg);
+    -webkit-animation: spin 1s linear infinite; 
+}
+@-webkit-keyframes spin {
+    from {-webkit-transform: rotate(0deg);}
+      to {-webkit-transform: rotate(360deg);}
+}
+.spin {
+    transform: rotate(360deg);
+    animation: spin 1s linear infinite;
+}
+@keyframes spin {
+    from {transform: rotate(0deg);}
+      to {transform: rotate(360deg);}
+}
+
+
+/* IE6-IE9实现 */
+.loading1 {
+       width: 320px;
+    height: 320px;
+    background: url(img/play.png);
+    /* input框样式重置 */
+    margin: 0; padding: 0; border: 0;
+}
+/* IE10+以及其他或骚或帅之流 */
+.loading1:optional {
+    background-color: red ;
+    width: 500px; height:500px;
+    border-radius: 100%;                     
+    box-shadow: 0 -10px 0 1px #333,          
+                10px 0px #333,                
+                0 10px #333,                 
+                -10px 0 #333,               
+                              
+                -7px -7px 0 .5px #333,       
+                7px -7px 0 1.5px #333,                        
+                7px 7px #333,                 
+                -7px 7px #333;              
+}
+
+
+
+
+.dis_block{
+  display: block;
+}
+.dis_none{
+  display: none;
+}
+.mui-progressbar{
+
+position: relative;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 19px;
+    -webkit-transform-origin: center top;
+    transform-origin: center top;
+    vertical-align: middle;
+    border-radius: 2px;
+    background: #b6b6b6;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+
+}
+.mybar{
+	position: absolute;
+    top: 0;
+    /* left: 0; */
+    margin: 0;
+}

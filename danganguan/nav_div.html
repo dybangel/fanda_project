@@ -1,0 +1,236 @@
+<style>
+/*.main_div{
+	width: 100%;
+	height: 1800px;
+	background-color: black;
+}
+.banner_div{
+ width: 100%;
+  height: 20%;
+}
+.top_div{
+ width: 100%;
+ height: 20%;
+ background-color: red;
+}
+.top_div .left{
+width: 60%;
+height: 100%;
+background-color: yellow;
+float:left;
+}
+.top_div .right{
+width: 40%;
+height: 100%;	
+background-color: blue;
+float:left;
+}
+.mid_div{
+ width: 100%;
+  height: 25%;
+   background-color: yellow;
+}
+.bot_div{
+ width: 100%;
+  height: 20%;
+    background-color: blue;
+}
+.fot_div{
+ width: 100%;	
+  height: 15%;
+}
+.bot_div .left { width: 33.333%;  height: 100%; float:left;background-color: red }
+.bot_div .right { width: 33.333%;  height: 100%;float:left; background-color: yellow }
+.bot_div .cen { width: 33.333%;  height: 100%; float:left;background-color: yellow }
+.parent_div{
+	position: relative;
+}
+.child_div{
+	margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 90%;
+    width: 90%; 
+ 
+
+}*/
+
+.huanDengPic {
+ 
+            overflow: hidden;
+            box-shadow:  0 0 5px rgba(0,0,0,1);   /*CSS3 box-shadow属性,里面的值的设置s可以去网上查*/
+            background-size: cover; 
+            background-position: center;
+            -webkit-animation-name: "loops"; /*检索或设置对象所应用的动画名称*/
+            -webkit-animation-duration: 3s; /*检索或设置对象动画的持续时间*/
+            -webkit-animation-iteration-count: infinite;  /*检索或设置对象动画的循环次数，此处的"infinite"为无限循环的意思*/
+        }
+
+        @-webkit-keyframes "loops" {  /*动画名称和上面设置的动画名称一样*/
+            /*下面是动画过程*/
+            10% {
+                padding:50px;
+            	/*margin-left:-10%;*/
+            	/*width: 100%;*/
+            	height: 100%;
+                background: url(img/nav/map.jpg) no-repeat;
+            }
+
+            50% {
+                padding:30px;
+         /*   width: 100%;*/
+                height: 100%;
+                background: url(img/nav/map.jpg) no-repeat;
+            }
+
+            100% {
+                padding:0px;
+            	/*margin-left:10%;*/
+            /*width: 100%;*/
+            	height: 100%;
+                background: url(img/nav/map.jpg) no-repeat;
+            }
+        }
+.xgqy{
+	 background-size: cover;
+	background-image:url('./img/1_xgqy/14.jpg');
+}
+.dmbdg{
+	
+		 background-size: cover;
+	background-image:url('./img/3_lysd/23.jpg');
+}
+.dtdh{
+	 background-size: cover;
+	background-image:url('./img/map1.jpg');	
+}
+.zlcg{
+	 background-size: cover;
+	background-image:url('./img/2_zlcg/9.jpg');		
+}
+.lysd{
+	 background-size: cover;
+	background-image:url('./img/3_lysd/26.jpg');		
+}
+.fszw{
+	 background-size: cover;
+	background-image:url('./img/4_fszw/1.jpg');		
+}
+.font_dtdh{
+
+	margin-top: 160px;
+    text-align: center;
+    letter-spacing:55px ;
+        color: #eae8f1;
+    text-shadow: 0 1px 0 #ff0;
+}
+.font_lysd{
+
+	margin-top: 250px;
+    text-align: center;
+    letter-spacing:30px ;
+        color: #eae8f1;
+    text-shadow: 0 1px 0 #ff0;
+}
+.font_zlcg{
+
+	margin-top: 250px;
+    text-align: center;
+    letter-spacing:30px ;
+        color: #eae8f1;
+    text-shadow: 0 1px 0 #ff0;
+}
+.font_fszw{
+
+	margin-top: 250px;
+    text-align: center;
+    letter-spacing:30px;
+        color: #eae8f1;
+    text-shadow: 0 1px 0 #ff0;
+}
+.play_button{
+    margin-top: 120px;
+        text-align: center;	
+}
+
+</style>
+<div class="nav_main_div">
+    <div class="nav_top_div">
+        <div id="dmbdg" class="nav_top_div_nei"><img src="img/nav/top-font.png"/></div>
+    </div>
+
+    <div class="nav_bottom_div ">
+            <div id="dtyd" class="nav_bottom_div_nei "><!-- <img  src="img/nav/map-font.png"/> --></div>
+    </div> 
+
+    <div class="nav_mid_div">
+        <div class="nav_mid_1_div"><div id="xgqy" class="nav_mid_1_div_nei"><img  src="img/nav/font1.png"/></div></div>
+        <div class="nav_mid_2_div"><div id="zlcg" class="nav_mid_2_div_nei"><img  src="img/nav/font2.png"/></div></div>
+        <div class="nav_mid_3_div"><div id="lysd" class="nav_mid_3_div_nei"><img  src="img/nav/font3.png"/></div></div>
+        <div class="nav_mid_4_div"><div id="fszw" class="nav_mid_4_div_nei"><img  src="img/nav/font4.png"/></div></div>
+    </div>
+    
+     <div class="nav_gujianfengcai_div">
+            <div id="gjfc" class="nav_gujianfengcai_div_nei">
+           <!--  <img src="img/nav/map-font.png"/> -->
+            </div>
+    </div>
+
+
+    
+    <div class="nav_copyright_div"><span>凡达致美互动传媒有限公司<span></div>
+<div>
+
+<!-- <div class="main_div">
+<div class="banner_div"></div>
+<div class="top_div">
+		<div class="left parent_div">
+			<div id="dmbdg" class="child_div dmbdg parent_div">
+				<div class="child_div play_button">
+					<img src="./img/play.png"></img>
+				</div>
+			</div>
+		</div>
+
+		<div class="right parent_div "><div id="xgqy" class="child_div huanDengPic"></div></div>
+</div>
+
+<div class="mid_div parent_div">
+		<div id="dtyd" class="child_div dtdh">
+		<div class="myfont font_dtdh">
+		<span class="">地图导航</span>
+		</div>
+		</div>
+</div>
+<div class="bot_div">
+		<div class="left parent_div">
+			<div id="zlcg" class="child_div zlcg">
+				<div class="myfont font_zlcg">
+					<span class="">卓荦重关</span>
+				</div>
+
+			</div>
+		</div> 
+
+		<div class="cen parent_div">
+			<div id="lysd" class="child_div lysd">
+				<div class="myfont font_lysd">
+					<span class="">疗养胜地</span>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="right parent_div">
+			<div id="fszw" class="child_div fszw">
+			<div class="myfont font_fszw">
+					<span class="">蜚声中外</span>
+				</div>
+			</div>
+		</div>
+</div>
+<div class="fot_div"></div>
+</div> -->
