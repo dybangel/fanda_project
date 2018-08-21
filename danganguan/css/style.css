@@ -6,6 +6,12 @@
 			margin-top: 233px;
 		}
 		@media screen and (max-width:1069px) {
+			.nav_copyright_div span{
+					 width: 100%;
+				    text-align: center;
+					float: right;
+					margin-top: 5%;
+				}
 
 			.video_return{
 				 width: 20%;
@@ -18,7 +24,7 @@
 				height: 10800px !important;
 			}
 			.long_scoll_gjfc{ /* 针对古建风情*/
-				height: 50900px !important;
+				height: 100900px !important;
 			}
 			.long_scoll_zlcg{ /* 针对古建风情*/
 				height: 10900px !important;
@@ -32,7 +38,15 @@
 		}
 		/*大屏幕现场*/
 		@media screen and (min-width:1070px) {
+			.nav_copyright_div span{
+					
+					float: right;
+					
+				}
+
+			.nav_bottom_div{width: 100%;height: 15%;}
 			.nav_main_div{width: 100%;height:1800px;background-color: black;}
+			.nav_gujianfengcai_div{width: 100%;height: 15%;}
 			.video_return{
 				 width: 20%;
 			    position: absolute;
@@ -41,40 +55,50 @@
 			    transform: translate(-50%,-50%);
 						}
 			.long_scoll_xgqy{ /* 针对古建风情*/
-							height: 5800px
+							height: 5800px  !important;
 						}
 			.long_scoll_gjfc{ /* 针对古建风情*/
-							height: 30900px
+							height: 60900px  !important;
 						}
 			.long_scoll_zlcg{ /* 针对古建风情*/
-							height: 6900px
+							height: 6900px  !important;
 						}
 			.long_scoll_lysd{ /* 针对古建风情*/
-							height: 14800px
+							height: 14800px  !important;
 						}
 			.long_scoll_fszw{ /* 针对古建风情*/
-							height: 10900px
+							height: 10900px  !important;
 						}
 		}
 		/*ipad pro*/
 		@media screen and (min-width:1023px)and (max-width:1069px) {
 			.nav_main_div{width: 100%;height:1366px;background-color: black;}
+			.nav_bottom_div{width: 100%;height: 0%;}
+			.nav_gujianfengcai_div{width: 100%;height: 20%;}
 		}
 		/*ipad*/
 		@media screen and (min-width:767px)and (max-width:1022px) {
 			.nav_main_div{width: 100%;height:1024px;background-color: black;}
+			.nav_bottom_div{width: 100%;height: 0%;}
+			.nav_gujianfengcai_div{width: 100%;height: 20%;}
 		}
 		/* iphone6 plus*/
 		@media screen and (min-width:413px)and (max-width:766px) {
 			.nav_main_div{width: 100%;height:736px;background-color: black;}
+			.nav_bottom_div{width: 100%;height: 0%;}
+			.nav_gujianfengcai_div{width: 100%;height: 20%;}
 		}
 			/* iphone6*/
 		@media screen and (min-width:374px)and (max-width:412px) {
 			.nav_main_div{width: 100%;height:667px;background-color: black;}
+			.nav_bottom_div{width: 100%;height: 0%;}
+			.nav_gujianfengcai_div{width: 100%;height: 20%;}
 		}
 		/* iphone5*/
 		@media screen and (min-width:319px)and (max-width:373px) {
 			.nav_main_div{width: 100%;height:568px;background-color: black;}
+			.nav_bottom_div{width: 100%;height: 0%;}
+			.nav_gujianfengcai_div{width: 100%;height: 20%;}
 		}
 		.div_main{
 			width:100%;height:9800px; 
@@ -127,14 +151,12 @@
 .nav_mid_2_div{height: 100%;width: 25%;float: left;}
 .nav_mid_3_div{height: 100%;width: 25%;float: left;}
 .nav_mid_4_div{height: 100%;width: 25%;float: left;}
-.nav_gujianfengcai_div{width: 100%;height: 15%;}
-.nav_bottom_div{width: 100%;height: 15%;}
+
+
 .nav_copyright_div{
 	width: 100%;height: 0.99%;
 }
-.nav_copyright_div span{
-	float: right;
-}
+
  .nav_div_nei_click{
  	border: 2px solid white;
  }
